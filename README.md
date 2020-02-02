@@ -1,125 +1,78 @@
-![apic](http://cdn7.okayapi.com/yesyesapi_20190709223344_8aadbcfdbfa297a193012c0dada32a58.jpeg)  
+<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
-# [PhalApi 2.10.1 - 接口，从简单开始！](https://www.phalapi.net/) 
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
 
-[![Latest Stable Version](https://poser.pugx.org/phalapi/phalapi/v/stable)](https://packagist.org/packages/phalapi/phalapi)
-[![Total Downloads](https://poser.pugx.org/phalapi/phalapi/downloads)](https://packagist.org/packages/phalapi/phalapi)
-[![Latest Unstable Version](https://poser.pugx.org/phalapi/phalapi/v/unstable)](https://packagist.org/packages/phalapi/phalapi)
-[![License](https://poser.pugx.org/phalapi/phalapi/license)](https://packagist.org/packages/phalapi/phalapi)
+## About Laravel
 
-> 让项目开发更简单！  
-> 当前版本由[广州 • 果创云 • 小白都喜欢的后端云服务](https://www.yesapi.cn/?f=github)独家赞助。
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## 1、开发文档
-专为PHPer准备的优雅而详细的开发文档，请看：[PhalApi 2.x 开发文档](http://docs.phalapi.net/#/v2.0/)。  
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-## 2、在线示例
- + 默认接口服务：[http://demo.phalapi.net/?s=App.Site.Index](http://demo.phalapi.net/?s=App.Site.Index)
- + 在线接口文档：[http://demo.phalapi.net/docs.php](http://demo.phalapi.net/docs.php)
- + 接口详情文档（以默认接口为例）：[http://demo.phalapi.net/docs.php?service=App.Site.Index&detail=1&type=fold](http://demo.phalapi.net/docs.php?service=App.Site.Index&detail=1&type=fold)
- + **PhalApi创新项目-小白接口**（免费、免开发、直接可用的的云端API）：[https://www.okayapi.com/](https://www.okayapi.com/?f=github)
- 
-## 3、快速安装
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-### composer一键安装
+## Learning Laravel
 
-使用composer创建项目的命令，可实现一键安装。
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-```bash
-$ composer create-project phalapi/phalapi
-```
-> 温馨提示：关于composer的使用，请参考[Composer 中文网 / Packagist 中国全量镜像](http://www.phpcomposer.com/)。
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-### 手动下载安装
+## Laravel Sponsors
 
-或者，也可以进行手动安装。将此Git项目代码下载解压后，进行可选的composer更新，即：  
-```bash
-$ composer update
-```
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-## 4、使用
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[British Software Development](https://www.britishsoftware.co)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- [UserInsights](https://userinsights.com)
+- [Fragrantica](https://www.fragrantica.com)
+- [SOFTonSOFA](https://softonsofa.com/)
+- [User10](https://user10.com)
+- [Soumettre.fr](https://soumettre.fr/)
+- [CodeBrisk](https://codebrisk.com)
+- [1Forge](https://1forge.com)
+- [TECPRESSO](https://tecpresso.co.jp/)
+- [Runtime Converter](http://runtimeconverter.com/)
+- [WebL'Agence](https://weblagence.com/)
+- [Invoice Ninja](https://www.invoiceninja.com)
+- [iMi digital](https://www.imi-digital.de/)
+- [Earthlink](https://www.earthlink.ro/)
+- [Steadfast Collective](https://steadfastcollective.com/)
+- [We Are The Robots Inc.](https://watr.mx/)
+- [Understand.io](https://www.understand.io/)
+- [Abdel Elrafa](https://abdelelrafa.com)
+- [Hyper Host](https://hyper.host)
+- [Appoly](https://www.appoly.co.uk)
+- [OP.GG](https://op.gg)
 
-### 调用接口
+## Contributing
 
-在PhalApi，你可以通过service参数（短名字是s参数）指定需要调用的接口服务。例如，访问默认接口服务。  
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
- + 默认接口：[http://localhost/phalapi/public/?s=App.Site.Index](http://localhost/phalapi/public/?s=App.Site.Index)
+## Code of Conduct
 
-> 温馨提示：推荐将访问根路径指向/path/to/phalapi/public。
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-对应执行的PHP代码在./src/app/Api/Site.php文件，源码片段如下：  
-```php
-<?php
-namespace App\Api;
-use PhalApi\Api;
+## Security Vulnerabilities
 
-/**
- * 默认接口服务类
- * @author: dogstar <chanzonghuang@gmail.com> 2014-10-04
- */
-class Site extends Api {
-    public function getRules() {
-        return array(
-            'index' => array(
-                'username'  => array('name' => 'username', 'default' => 'PhalApi', 'desc' => '用户名'),
-            ),
-        );
-    }
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-    /**
-     * 默认接口服务
-     * @desc 默认接口服务，当未指定接口服务时执行此接口服务
-     * @return string title 标题
-     * @return string content 内容
-     * @return string version 版本，格式：X.X.X
-     * @return int time 当前时间戳
-     * @exception 400 非法请求，参数传递错误
-     */
-    public function index() {
-        return array(
-            'title' => 'Hello ' . $this->username,
-            'version' => PHALAPI_VERSION,
-            'time' => $_SERVER['REQUEST_TIME'],
-        );
-    }
-}
-```
+## License
 
-接口请求后结果输出类似如下：  
-```
-{
-    "ret": 200,
-    "data": {
-        "title": "Hello PhalApi",
-        "version": "2.4.2",
-        "time": 1501079142
-    },
-    "msg": ""
-}
-```
-
-运行效果，截图如下：  
-
-![_20190201151943](https://user-images.githubusercontent.com/12585518/52108414-e98d0980-2634-11e9-9e68-9c3fae304a46.png)
-
-### 查看在线接口文档
-
-PhalApi会根据你编写的接口的参数配置和代码注释，自动实时生成在线接口文档。在线接口文档链接为：  
- 
- + 在线接口文档：[http://localhost/phalapi/public/docs.php](http://localhost/phalapi/public/docs.php)
-
-浏览效果类似如下：  
-
-![_20190201113515](https://user-images.githubusercontent.com/12585518/52101206-8fc91700-2615-11e9-8c4d-20e30cc264c4.png)
-
-## 5、一张图告诉你如何使用PhalApi 2.x
-![phalapi-install](https://user-images.githubusercontent.com/12585518/52995681-4ae71200-3456-11e9-8d00-065a42cf4382.gif)
-
-## 6、子项目
- + [phalapi/kernal](https://github.com/phalapi/kernal)
- + [phalapi/notorm](https://github.com/phalapi/notorm)
-
-## 7、还有问题，怎么办？  
-
-如发现问题，或者任何问题，欢迎提交Issue到[这里](https://github.com/phalapi/phalapi/issues)，或进入[PhalApi开源社区](http://qa.phalapi.net/?f=github)。  
-如果喜欢，请帮忙在[Github](https://github.com/phalapi/phalapi)或[码云](https://gitee.com/dogstar/PhalApi)给个Star，也可以对PhalApi进行[捐赠](https://www.phalapi.net/donate.html)哦 ^_^。
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
