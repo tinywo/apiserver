@@ -12,11 +12,14 @@ class TempController extends Controller
     {
         $data = array();
         for ($i = 0; $i < 7; $i++) {
-            $data[$i] = Data::query()
+            $date = Carbon::parse('-' . $i . ' days')->toDateString();
+            $temp = Data::query()
                 ->selectRaw('avg(temp) as temp')
-                ->whereDate('created', Carbon::parse('-' . $i . ' days')->toDateString())
+                ->whereDate('created', $date)
                 ->get();
+            $data[$i] = $temp[0];
+            $data[$i]['date'] = $date;
         }
-        return $data;
+        return array_reverse($data);    //翻转数组
     }
 }
