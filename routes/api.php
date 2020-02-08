@@ -16,3 +16,15 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+//Route::get('/test', 'IndexController@index')->name('test');
+
+//  访问url http://localhost/api/RouterUri
+Route::group(['namespace' => 'Api'], function () {
+    //  近7日平均温度
+    Route::any('temp/avgTemp7day', 'TempController@avgTemp7day');
+});
+
+Route::get("/test", function () {
+    return 'test';
+});
