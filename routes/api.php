@@ -23,6 +23,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::group(['namespace' => 'Api'], function () {
     //  近7日平均温度
     Route::any('temp/avgTemp7day', 'TempController@avgTemp7day');
+    //  近7日平均湿度
+    Route::any('temp/avgHum7day', 'TempController@avgHum7day');
 });
 
 Route::get("/test", function () {
