@@ -1,13 +1,14 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers\Pc;
 
 use App\Data;
-use Carbon\Carbon;
 use App\Http\Controllers\Controller;
+use Carbon\Carbon;
 
 class TempController extends Controller
 {
+
     public function avgTemp7day()
     {
         $data = array();
